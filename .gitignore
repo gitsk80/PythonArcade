@@ -1,0 +1,33 @@
+# Python-spezifische Dateien
+__pycache__
+*.py[cod]
+*$py.class
+
+# Verteilungs- / Verpackungsdateien
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtuelle Umgebungen
+venv/
+.venv/
+env/
+.env
+
+# PyCharm-spezifische Dateien
+.idea/
+
+# Logs und Datenbanken
+*.log
+*.sqlite3
+
+# Testabdeckung
+.coverage
+htmlcov/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Sonstige
+.DS_Store
